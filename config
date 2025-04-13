@@ -1,0 +1,13 @@
+<?php
+
+return [
+
+    'anime_per_page' => 10,
+
+    'default_genre' => 'All',
+
+    'api_key' => env('ANIME_API_KEY', 'your_api_key_here'),
+
+    'base_url' => env('ANIME_BASE_URL', 'https://api.example.com/anime'),
+
+];
